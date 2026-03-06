@@ -1,0 +1,4 @@
+# Optional local files
+.DS_Store
+Thumbs.db
+gcm-diagnose.log
