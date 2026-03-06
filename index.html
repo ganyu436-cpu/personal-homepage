@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Name | Personal Homepage</title>
+    <meta
+      name="description"
+      content="A beginner-friendly personal homepage built with plain HTML, CSS, and JavaScript."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow page-glow-left"></div>
+    <div class="page-glow page-glow-right"></div>
+
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="#top">YOUR NAME</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Beginner builder</p>
+          <h1>I am learning to build useful things on the web.</h1>
+          <p class="hero-text">
+            This homepage is my first project. I built it with plain HTML, CSS,
+            and JavaScript so I can understand each piece step by step.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">See my work</a>
+            <a class="button button-secondary" href="#contact">Contact me</a>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal reveal-delay-1">
+          <p class="card-label">Now learning</p>
+          <ul class="learning-list">
+            <li>HTML page structure</li>
+            <li>CSS layout and colors</li>
+            <li>JavaScript basics</li>
+            <li>Git and GitHub</li>
+          </ul>
+          <div class="mini-grid">
+            <article>
+              <strong>1</strong>
+              <span>website online soon</span>
+            </article>
+            <article>
+              <strong>3</strong>
+              <span>sections on this page</span>
+            </article>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="section section-panel reveal reveal-delay-1">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Who I am</h2>
+        </div>
+        <div class="section-grid">
+          <p>
+            Replace this text with your own introduction. You can write your
+            name, what you study, what kind of work you want to do, and what
+            interests you outside of school or work.
+          </p>
+          <p>
+            Because this project uses no framework, every file is easy to read.
+            That makes it a good first project before learning tools such as
+            React, Vue, or Next.js.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Things I want to build next</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <p class="project-index">01</p>
+            <h3>Personal homepage</h3>
+            <p>
+              A clean website that introduces me, shows what I am learning, and
+              gives people a way to contact me.
+            </p>
+          </article>
+
+          <article class="project-card reveal reveal-delay-1">
+            <p class="project-index">02</p>
+            <h3>Task tracker</h3>
+            <p>
+              A simple page where I can add tasks, mark them complete, and
+              practice JavaScript interactions.
+            </p>
+          </article>
+
+          <article class="project-card reveal reveal-delay-2">
+            <p class="project-index">03</p>
+            <h3>Reading notes</h3>
+            <p>
+              A small website for saving book notes or study summaries and
+              organizing them into topics.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-panel reveal reveal-delay-2">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Ways to reach me</h2>
+        </div>
+
+        <div class="contact-grid">
+          <a class="contact-item" href="mailto:your-email@example.com">
+            <span class="contact-label">Email</span>
+            <strong>your-email@example.com</strong>
+          </a>
+          <a class="contact-item" href="https://github.com/your-github-name">
+            <span class="contact-label">GitHub</span>
+            <strong>github.com/your-github-name</strong>
+          </a>
+          <a class="contact-item" href="https://www.linkedin.com/">
+            <span class="contact-label">LinkedIn</span>
+            <strong>linkedin.com/in/your-name</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p><span id="currentYear"></span> Your Name. Built while learning web development.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
